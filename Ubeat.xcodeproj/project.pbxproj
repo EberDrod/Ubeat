@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E82A1D8219570BD004ACA65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82A1D7219570BD004ACA65 /* AppDelegate.swift */; };
+		1E82A1DA219570BD004ACA65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82A1D9219570BD004ACA65 /* ViewController.swift */; };
+		1E82A1DD219570BD004ACA65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82A1DB219570BD004ACA65 /* Main.storyboard */; };
+		1E82A1DF219570BF004ACA65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E82A1DE219570BF004ACA65 /* Assets.xcassets */; };
+		1E82A1E2219570BF004ACA65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82A1E0219570BF004ACA65 /* LaunchScreen.storyboard */; };
+		1E82A1ED219570BF004ACA65 /* UbeatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82A1EC219570BF004ACA65 /* UbeatTests.swift */; };
+		1E82A1F8219570BF004ACA65 /* UbeatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82A1F7219570BF004ACA65 /* UbeatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E82A1E9219570BF004ACA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E82A1CC219570BD004ACA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E82A1D3219570BD004ACA65;
+			remoteInfo = Ubeat;
+		};
+		1E82A1F4219570BF004ACA65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E82A1CC219570BD004ACA65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E82A1D3219570BD004ACA65;
+			remoteInfo = Ubeat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E82A1D4219570BD004ACA65 /* Ubeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82A1D7219570BD004ACA65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E82A1D9219570BD004ACA65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E82A1DC219570BD004ACA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E82A1DE219570BF004ACA65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E82A1E1219570BF004ACA65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E82A1E3219570BF004ACA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82A1E8219570BF004ACA65 /* UbeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UbeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82A1EC219570BF004ACA65 /* UbeatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbeatTests.swift; sourceTree = "<group>"; };
+		1E82A1EE219570BF004ACA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82A1F3219570BF004ACA65 /* UbeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UbeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82A1F7219570BF004ACA65 /* UbeatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbeatUITests.swift; sourceTree = "<group>"; };
+		1E82A1F9219570BF004ACA65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E82A1D1219570BD004ACA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1E5219570BF004ACA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1F0219570BF004ACA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E82A1CB219570BD004ACA65 = {
+			isa = PBXGroup;
+			children = (
+				1E82A1D6219570BD004ACA65 /* Ubeat */,
+				1E82A1EB219570BF004ACA65 /* UbeatTests */,
+				1E82A1F6219570BF004ACA65 /* UbeatUITests */,
+				1E82A1D5219570BD004ACA65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E82A1D5219570BD004ACA65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E82A1D4219570BD004ACA65 /* Ubeat.app */,
+				1E82A1E8219570BF004ACA65 /* UbeatTests.xctest */,
+				1E82A1F3219570BF004ACA65 /* UbeatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E82A1D6219570BD004ACA65 /* Ubeat */ = {
+			isa = PBXGroup;
+			children = (
+				1E82A1D7219570BD004ACA65 /* AppDelegate.swift */,
+				1E82A1D9219570BD004ACA65 /* ViewController.swift */,
+				1E82A1DB219570BD004ACA65 /* Main.storyboard */,
+				1E82A1DE219570BF004ACA65 /* Assets.xcassets */,
+				1E82A1E0219570BF004ACA65 /* LaunchScreen.storyboard */,
+				1E82A1E3219570BF004ACA65 /* Info.plist */,
+			);
+			path = Ubeat;
+			sourceTree = "<group>";
+		};
+		1E82A1EB219570BF004ACA65 /* UbeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E82A1EC219570BF004ACA65 /* UbeatTests.swift */,
+				1E82A1EE219570BF004ACA65 /* Info.plist */,
+			);
+			path = UbeatTests;
+			sourceTree = "<group>";
+		};
+		1E82A1F6219570BF004ACA65 /* UbeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E82A1F7219570BF004ACA65 /* UbeatUITests.swift */,
+				1E82A1F9219570BF004ACA65 /* Info.plist */,
+			);
+			path = UbeatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E82A1D3219570BD004ACA65 /* Ubeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82A1FC219570BF004ACA65 /* Build configuration list for PBXNativeTarget "Ubeat" */;
+			buildPhases = (
+				1E82A1D0219570BD004ACA65 /* Sources */,
+				1E82A1D1219570BD004ACA65 /* Frameworks */,
+				1E82A1D2219570BD004ACA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ubeat;
+			productName = Ubeat;
+			productReference = 1E82A1D4219570BD004ACA65 /* Ubeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E82A1E7219570BF004ACA65 /* UbeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82A1FF219570BF004ACA65 /* Build configuration list for PBXNativeTarget "UbeatTests" */;
+			buildPhases = (
+				1E82A1E4219570BF004ACA65 /* Sources */,
+				1E82A1E5219570BF004ACA65 /* Frameworks */,
+				1E82A1E6219570BF004ACA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E82A1EA219570BF004ACA65 /* PBXTargetDependency */,
+			);
+			name = UbeatTests;
+			productName = UbeatTests;
+			productReference = 1E82A1E8219570BF004ACA65 /* UbeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E82A1F2219570BF004ACA65 /* UbeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82A202219570BF004ACA65 /* Build configuration list for PBXNativeTarget "UbeatUITests" */;
+			buildPhases = (
+				1E82A1EF219570BF004ACA65 /* Sources */,
+				1E82A1F0219570BF004ACA65 /* Frameworks */,
+				1E82A1F1219570BF004ACA65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E82A1F5219570BF004ACA65 /* PBXTargetDependency */,
+			);
+			name = UbeatUITests;
+			productName = UbeatUITests;
+			productReference = 1E82A1F3219570BF004ACA65 /* UbeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E82A1CC219570BD004ACA65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SBL;
+				TargetAttributes = {
+					1E82A1D3219570BD004ACA65 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					1E82A1E7219570BF004ACA65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1E82A1D3219570BD004ACA65;
+					};
+					1E82A1F2219570BF004ACA65 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 1E82A1D3219570BD004ACA65;
+					};
+				};
+			};
+			buildConfigurationList = 1E82A1CF219570BD004ACA65 /* Build configuration list for PBXProject "Ubeat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E82A1CB219570BD004ACA65;
+			productRefGroup = 1E82A1D5219570BD004ACA65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E82A1D3219570BD004ACA65 /* Ubeat */,
+				1E82A1E7219570BF004ACA65 /* UbeatTests */,
+				1E82A1F2219570BF004ACA65 /* UbeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E82A1D2219570BD004ACA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82A1E2219570BF004ACA65 /* LaunchScreen.storyboard in Resources */,
+				1E82A1DF219570BF004ACA65 /* Assets.xcassets in Resources */,
+				1E82A1DD219570BD004ACA65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1E6219570BF004ACA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1F1219570BF004ACA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E82A1D0219570BD004ACA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82A1DA219570BD004ACA65 /* ViewController.swift in Sources */,
+				1E82A1D8219570BD004ACA65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1E4219570BF004ACA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82A1ED219570BF004ACA65 /* UbeatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82A1EF219570BF004ACA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82A1F8219570BF004ACA65 /* UbeatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E82A1EA219570BF004ACA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E82A1D3219570BD004ACA65 /* Ubeat */;
+			targetProxy = 1E82A1E9219570BF004ACA65 /* PBXContainerItemProxy */;
+		};
+		1E82A1F5219570BF004ACA65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E82A1D3219570BD004ACA65 /* Ubeat */;
+			targetProxy = 1E82A1F4219570BF004ACA65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E82A1DB219570BD004ACA65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E82A1DC219570BD004ACA65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E82A1E0219570BF004ACA65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E82A1E1219570BF004ACA65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E82A1FA219570BF004ACA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E82A1FB219570BF004ACA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E82A1FD219570BF004ACA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = Ubeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.Ubeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E82A1FE219570BF004ACA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = Ubeat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.Ubeat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E82A200219570BF004ACA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = UbeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.UbeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ubeat.app/Ubeat";
+			};
+			name = Debug;
+		};
+		1E82A201219570BF004ACA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = UbeatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.UbeatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ubeat.app/Ubeat";
+			};
+			name = Release;
+		};
+		1E82A203219570BF004ACA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = UbeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.UbeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ubeat;
+			};
+			name = Debug;
+		};
+		1E82A204219570BF004ACA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FV6F8S55B8;
+				INFOPLIST_FILE = UbeatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ubeat-Sbl.UbeatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ubeat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E82A1CF219570BD004ACA65 /* Build configuration list for PBXProject "Ubeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82A1FA219570BF004ACA65 /* Debug */,
+				1E82A1FB219570BF004ACA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82A1FC219570BF004ACA65 /* Build configuration list for PBXNativeTarget "Ubeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82A1FD219570BF004ACA65 /* Debug */,
+				1E82A1FE219570BF004ACA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82A1FF219570BF004ACA65 /* Build configuration list for PBXNativeTarget "UbeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82A200219570BF004ACA65 /* Debug */,
+				1E82A201219570BF004ACA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82A202219570BF004ACA65 /* Build configuration list for PBXNativeTarget "UbeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82A203219570BF004ACA65 /* Debug */,
+				1E82A204219570BF004ACA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E82A1CC219570BD004ACA65 /* Project object */;
+}
